@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Designer</title>
     <style>
         *{
             background-color:#0f52ba;
         }
         .container{
             display: flex;
-            margin-left: 350px;
+            margin-left: -300px;
         }
         .dare{
           justify-content: right;
-            margin-left: 50px;
+            margin-left: 100px;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
         }
         .dar{
             margin-left: 50px; 
@@ -99,7 +100,30 @@
             width: 400px;
             border-radius: 20px;
         }
+        .container {
+  max-width: 1200px; /* adjust the max-width to your liking */
+  margin: 0 auto; /* center the container */
+  padding: 20px;
+}
+
+/* media query for tablets and smaller */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  /* adjust other elements and styles as needed */
+}
+
+/* media query for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+  /* adjust other elements and styles as needed */
+}
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="minimum-scale=1, maximum-scale=5">
 </head>
 <body>
     <div class="container">
@@ -110,7 +134,7 @@
         <p class="dare">Contact Us</p>
     </div>
 
-<h2 class="post">Coding Nepal</h2>
+
 
 
 <span class="long">
@@ -137,5 +161,8 @@
     <button class="poll">Learn More</button>
 
     <img class="loss" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQvoRaMfEv9rq-Gxnmr3W6Ju3MkQ2MP6JZvcMhluhuQ&s" alt="">
+    <div class="container">
+        <!-- your website content here -->
+      </div>
 </body>
 </html>
